@@ -8,4 +8,4 @@ To answer the above questions, we conduct the first empirical study to explore b
 
 ## Dataset
 
-We collect 296 bug reports from 4 project pairs. For details, see all_bugs.txt and two-side_bugs.txt.
+We collect 296 bug reports from 4 project pairs. For details, see all_bugs.txt and two_side_bugs.txt.
