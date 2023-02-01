@@ -1,4 +1,4 @@
-# An Empirical Study on Cross-language Bugs
+# An Empirical Study on Cross-language Implementations
 
 ## Project summary
 
