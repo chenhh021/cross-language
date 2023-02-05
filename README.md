@@ -11,4 +11,21 @@ To answer the above questions, we conduct the first empirical study to explore b
 ---
 ## Dataset
 
-We collect 296 bug reports from 4 project pairs. For details, see all_bugs.txt, two_sided_bugs.txt and learnt_bugs.txt. all_bugs.txt is for all bugs; two_sided_bugs.txt is for two-sided bugs; learnt_bugs.txt is for new bugs learnt from known ones discussed in RQ4.
+We collect 296 bug reports from 4 project pairs. For details, see [all_bugs.txt](https://github.com/chenhh021/cross-language/blob/main/all_bugs.txt) for the whole set; [two_sided_bugs.txt](https://github.com/chenhh021/cross-language/blob/main/two_sided_bugs.txt) for two-sided bugs.
+
+---
+
+## Learnt bugs
+
+We successfully learnt new bugs from known ones in cross-language implementations as discussed in section 4.4 in our paper. We reproduced and reported 8 new cross-language bugs, the details are listed in the table below.
+
+| original_report | original_patch | our_reported_id | our_patch | status |
+| ------- | --------- | ----------- | ------- |  ------- |  
+| [LUCENE-8755](https://issues.apache.org/jira/browse/LUCENE-8755) | [LUCENE-commit\#26628b2](https://github.com/apache/lucene/commit/26628b2717a73235db56fde94f7f5b64cbc5b8b2) | [LUCENENET#644](https://github.com/apache/lucenenet/issues/644)            |    [LUCENENET-PR\#644](https://github.com/apache/lucenenet/pull/738/files)     | PR rejected |  
+| [LUCENE-10059](https://issues.apache.org/jira/browse/LUCENE-10058)  | [LUCENE-PR\#254](https://github.com/apache/lucene/pull/254/files)     | [LUCENENET#775](https://github.com/apache/lucenenet/issues/775)    | [LUCENENET-PR\#777](https://github.com/apache/lucenenet/pull/777/files)        |  Open|   
+| [LUCENE-10008](https://issues.apache.org/jira/browse/LUCENE-10008)  | [LUCENE-PR\#188](https://github.com/apache/lucene/pull/188/files)          | [LUCENENET#780](https://github.com/apache/lucenenet/issues/780)            | [LUCENENET-PR\#781](https://github.com/apache/lucenenet/pull/781/files)      | Open | 
+| [LUCENE-9940](https://issues.apache.org/jira/browse/LUCENE-9940)    | [LUCENE-PR\#110](https://github.com/apache/lucene/pull/110/files)     | [LUCENENET#779](https://github.com/apache/lucenenet/issues/779)       | [LUCENENET-PR\#783](https://github.com/apache/lucenenet/pull/783/files)        | Open |  
+| [HHH-14413](https://hibernate.atlassian.net/browse/HHH-14413)       | [HHH-PR\#3699](https://github.com/hibernate/hibernate-orm/pull/3699/files)    |  [NH\#3198](https://github.com/nhibernate/nhibernate-core/issues/3198)           | [NH-PR\#3199](https://github.com/nhibernate/nhibernate-core/pull/3199/files)        | PR accepted | 
+| [NH\#1419](https://github.com/nhibernate/nhibernate-core/issues/1419)      | [NH-PR\#1420](https://github.com/nhibernate/nhibernate-core/pull/1420/files)     | [HHH-15848](https://hibernate.atlassian.net/browse/HHH-15848)         |  [HHH-PR\#5737](https://github.com/hibernate/hibernate-orm/pull/5737/files)      | Open | 
+| [NTS\#589](https://github.com/NetTopologySuite/NetTopologySuite/issues/589)      | [NTS-commit\#e94157a](https://github.com/NetTopologySuite/NetTopologySuite/commit/e94157ac19e97fbbdf0808f18bac8ea899288516)          |  [JTS\#939](https://github.com/locationtech/jts/issues/939)       | [JTS-PR\#941](https://github.com/locationtech/jts/pull/941/files)       | Open |  
+| [NTS\#567](https://github.com/NetTopologySuite/NetTopologySuite/issues/567)      | [NTS-commit\#a9becc0](https://github.com/NetTopologySuite/NetTopologySuite/commit/a9becc07dcad66fc9405d1869364ac8e6ce8650d)          |  [JTS\#919](https://github.com/locationtech/jts/issues/919)           | [JTS-PR\#922](https://github.com/locationtech/jts/pull/922/files)        | PR accepted  |
