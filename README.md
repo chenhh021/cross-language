@@ -19,7 +19,7 @@ We collect 296 bug reports from 4 project pairs. For details, see [all_bugs.txt]
 
 We successfully learnt new bugs from known ones in cross-language implementations as discussed in section 4.4 in our paper. We reproduced and reported 8 new cross-language bugs, the details are listed in the table below.
 
-| original_report | original_patch | our_reported_id | our_patch | status |
+| original_report | original_patch | our_reported | our_patch | status |
 | ------- | --------- | ----------- | ------- |  ------- |  
 | [LUCENE-8755](https://issues.apache.org/jira/browse/LUCENE-8755) | [LUCENE-commit\#26628b2](https://github.com/apache/lucene/commit/26628b2717a73235db56fde94f7f5b64cbc5b8b2) | [LUCENENET#644](https://github.com/apache/lucenenet/issues/644)            |    [LUCENENET-PR\#644](https://github.com/apache/lucenenet/pull/738/files)     | PR rejected |  
 | [LUCENE-10059](https://issues.apache.org/jira/browse/LUCENE-10058)  | [LUCENE-PR\#254](https://github.com/apache/lucene/pull/254/files)     | [LUCENENET#775](https://github.com/apache/lucenenet/issues/775)    | [LUCENENET-PR\#777](https://github.com/apache/lucenenet/pull/777/files)        |  Open|   
