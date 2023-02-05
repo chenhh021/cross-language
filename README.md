@@ -1,4 +1,6 @@
-# An Empirical Study on Cross-language Implementations
+# An Empirical Study on Bugs of Cross-language Implementations
+
+---
 
 ## Project summary
 
@@ -6,6 +8,7 @@ As software is widely used in daily life, software bugs can introduce catastroph
 
 To answer the above questions, we conduct the first empirical study to explore bugs in cross-language similar code fragments. In this study, we manually analyze 296 bugs that are collected from four projects, and all the projects have implementations in both Java and C\#. Our study presents answers to four interesting research questions. For example, we confirm that the bug fixes in an implementation are useful to repair bugs from implementations in other languages. Our findings and interpretations complement the prior empirical studies on bugs.
 
+---
 ## Dataset
 
 We collect 296 bug reports from 4 project pairs. For details, see all_bugs.txt, two_sided_bugs.txt and learnt_bugs.txt. all_bugs.txt is for all bugs; two_sided_bugs.txt is for two-sided bugs; learnt_bugs.txt is for new bugs learnt from known ones discussed in RQ4.
