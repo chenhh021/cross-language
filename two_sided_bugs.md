@@ -1,4 +1,4 @@
-## Two-sided bus
+## Two-sided bugs
 
 We disgussed reported and identified two-sided bugs in section 4.4 of our paper. We found 34 two-sided bugs, the details are listed in the table below.
 
