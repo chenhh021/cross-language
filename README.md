@@ -11,7 +11,7 @@ To answer the above questions, we conduct the first empirical study to explore b
 ---
 ## Dataset
 
-We collect 296 bug reports from 4 project pairs. For details, see [all_bugs.txt](https://github.com/chenhh021/cross-language/blob/main/all_bugs.txt) for the whole set; [two_sided_bugs.txt](https://github.com/chenhh021/cross-language/blob/main/two_sided_bugs.txt) for two-sided bugs.
+We collect 296 bug reports from 4 project pairs. For details, see [all_bugs.txt](https://github.com/chenhh021/cross-language/blob/main/all_bugs.txt) for the whole set; [two_sided_bugs.md](https://github.com/chenhh021/cross-language/blob/main/two_sided_bugs.md) for two-sided bugs.
 
 ---
 
