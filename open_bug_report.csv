@@ -1,0 +1,237 @@
+﻿project,bug_ID,priority,type(person1),type(person2),type(final decision),PR,Explanation
+Lucene,LUCENE-10665,Critical,T2.2.2,T2.2.2,T2.2.2,https://github.com/apache/lucene/pull/11718/files,C# readonly protect thread.
+Lucene,LUCENE-10519,Critical,T2.3.3,T2.3.3,T2.3.3,https://github.com/apache/lucene/pull/816,Reverted PR
+Lucene,LUCENE-6390,Critical,T2.1.2,T2.1.2,T2.1.2,https://svn.apache.org/viewvc?view=revision&revision=1671078,"No implementation in C# ""NearSpansOrdered.cs"""
+Lucene,LUCENE-10590,Major,T2.1.3,T2.1.3,T2.1.3,https://github.com/apache/lucene/pull/12770/files,"No module ""HNSW"" in lucenenet."
+Lucene,LUCENE-10551,Major,T2.1.3,T2.1.3,T2.1.3,https://github.com/apache/lucene/commit/138d40e6573#diff-ce21355c0ebef1bc9f37b7d906273424198e5f6f6ae93f105f8f0eb1552deecd,"No module ""compress"" in lucenenet."
+Lucene,LUCENE-10544,Major,T2.1.2,T2.1.2,T2.1.2,https://github.com/apache/lucene/commit/aa082b46f66,No implementation in IndexSearcher.cs
+Lucene,LUCENE-10441,Major,T1.2.1,T1.2.1,T1.2.1,https://github.com/apache/lucene/pull/12392/files,C# does not need to consider overflow.
+Lucene,LUCENE-10431,Major,T2.1.2,T2.1.2,T2.1.2,https://github.com/apache/lucene/pull/726/files,No setter method in C#
+Lucene,LUCENE-10423,Major,T2.2.2,T2.2.2,T2.2.2,https://github.com/apache/lucene/commit/dbffe3472b6c6016cbc353aa42f3dd3dc5fc9dba#diff-1f629e9745171a9ace57021de8b92b1337ab1b260e93ddefcba2a72e33c6dfdeR186,System.nanotime is a java api. C# use another api.
+Lucene,LUCENE-10314,Major,T2.1.1,T2.1.1,T2.1.1,https://github.com/apache/lucene/pull/12360/files,C# has no IndexOptions.cs
+Lucene,LUCENE-10271,Major,T2.1.2,T2.1.2,T2.1.2,https://github.com/apache/lucene/commit/c89c78c#diff-5f58f7980802006ec5dcfaa58cdfa6b218bfca46d8f317dcca3a1c5881b80c64R2129,"No implementation in C# ""CheckIndex.cs"""
+Lucene,LUCENE-10177,Major,T2.1.3,T2.1.3,T2.1.3,https://github.com/apache/lucene/pull/670/files,"No module ""backward_codecs"" in lucenenet"
+Lucene,LUCENE-10176,Major,T2.3.3,T2.3.3,T2.3.3,https://github.com/apache/lucene/pull/676/files,Reverted PR
+Lucene,LUCENE-10175,Major,T2.1.3,T2.1.3,T2.1.3,https://github.com/apache/lucene/pull/12101/files,"No module ""backward_codecs"" in lucenenet"
+Lucene,LUCENE-10075,Major,T2.1.3,T2.1.3,T2.1.3,https://github.com/apache/lucene/pull/370/files,"No module ""interval"" in lucenenet"
+Lucene,LUCENE-10057,Major,T2.1.2,T2.1.2,T2.1.2,https://github.com/apache/lucene/commit/5896e53,No implementation in IndexFiles.cs
+Lucene,LUCENE-9992,Major,T2.1.1,T2.1.1,T2.1.1,https://github.com/apache/lucene/commit/f5e050b,C# has no AssertingVectorFormat.cs
+Lucene,LUCENE-9889,Major,T2.2.2,T2.2.2,T2.2.2,https://svn.apache.org/viewvc?view=revision&revision=1648813,C# sync different.
+Lucene,LUCENE-9839,Major,T2.3.3,T2.3.3,T2.3.3,https://github.com/apache/lucene/commit/521c0e24f2d3f7137b2cab8dc99e9f5dace04a9d,Reverted PR
+Lucene,LUCENE-9662,Major,T2.2.2,T2.2.2,T2.2.2,https://github.com/apache/lucene/commit/7f8607b#diff-5f58f7980802006ec5dcfaa58cdfa6b218bfca46d8f317dcca3a1c5881b80c64R492,C# has no threadcount parameter
+Lucene,LUCENE-9621,Major,T2.1.2,T2.1.2,T2.1.2,https://github.com/apache/lucene-solr/commit/8e162e2#diff-b81932cf39b70347481b9659dd55b9b373427c2992cdacdfbc10ff8f4ea9eec0R487,No implementation in FieldInfo.cs
+Lucene,LUCENE-9367,Major,T1.2.2,T1.2.2,T1.2.2,,All tests fail. The developers not fix them in Both VERSIONs
+Lucene,LUCENE-9306,Major,T2.2.3,T2.2.3,T2.2.3,https://issues.apache.org/jira/secure/attachment/12999164/LUCENE-9306.patch,Lucene-solr bug. A third library
+Lucene,LUCENE-9274,Major,T2.1.3,T2.1.3,T2.1.3,,"No module ""uhighlight"" in C#"
+Lucene,LUCENE-9197,Major,T2.1.3,T2.1.3,T2.1.3,https://github.com/apache/lucene-solr/commit/996945f#diff-b5d1952ec698efedc4d13bd7db4e3a1bc5e2c6d1b4d2d8f1901ea7e3988911dcR71,"No module ""geo"" in C#"
+Lucene,LUCENE-8819,Major,T2.1.2,T2.1.2,T2.1.2,https://issues.apache.org/jira/secure/attachment/12971454/LUCENE-8829.patch,No implementation in AssertingCollector.cs
+Lucene,LUCENE-8756,Major,T2.1.3,T2.1.3,T2.1.3,https://github.com/apache/lucene-solr/pull/638/files,Hard to reproduce.
+Lucene,LUCENE-8736,Major,T2.1.3,T2.1.3,T2.1.3,https://github.com/apache/lucene-solr/commit/dc88e15,"No module ""geo"" in C#"
+Lucene,LUCENE-8721,Major,T2.1.3,T2.1.3,T2.1.3,https://issues.apache.org/jira/secure/attachment/12962158/LUCENE-8721.patch,"No module ""geo"" in C#"
+Lucene,LUCENE-8695,Major,T2.1.1,T2.1.1,T2.1.1,,C# has no WordDelimiterGraphFilter.cs
+Lucene,LUCENE-8692,Major,T2.1.2,T2.1.2,T2.1.2,https://github.com/apache/lucene-solr/commit/4bd7d68,No implementation in IndexWriter.cs
+Lucene,LUCENE-8634,Major,T2.1.1,T2.1.1,T2.1.1,https://issues.apache.org/jira/secure/attachment/12954596/LUCENE-8634.patch,C# has no LatLonShape.cs
+Lucene,LUCENE-8614,Major,T1.2.1,T1.2.1,T1.2.1,https://github.com/apache/lucene/pull/12392/files,Similar to 10441
+Lucene,LUCENE-8454,Major,T2.1.3,T2.1.3,T2.1.3,https://issues.apache.org/jira/secure/attachment/12935403/LUCENE-8454.patch,"No module ""geo"" in C#"
+Lucene,LUCENE-8288,Major,T2.1.1,T2.1.1,T2.1.1,https://issues.apache.org/jira/secure/attachment/12922313/LUCENE-8288.patch,C# has no ContextQuery.cs
+Lucene,LUCENE-8137,Major,T2.1.3,T2.1.3,T2.1.3,https://issues.apache.org/jira/secure/attachment/12980600/SGF_SF_interaction.patch,"No module ""synonym"" in C#"
+Lucene,LUCENE-8108,Major,T1.2.2,T1.2.2,T1.2.2,,All tests fail. The developers not fix them in Both VERSIONs
+Lucene,LUCENE-8052,Major,T2.1.1,T2.1.1,T2.1.1,https://github.com/apache/lucene/commit/2ed60e80736dd81da182c51920a7b4ff71f358a1,C# has no VectorSimilarityFunction.cs
+Lucene,LUCENE-7795,Major,T1.2.2,T1.2.2,T1.2.2,,All tests fail. The developers not fix them in Both VERSIONs
+Lucene,LUCENE-7682,Major,T2.1.3,T2.1.3,T2.1.3,https://svn.apache.org/viewvc?view=revision&revision=1685517,"No module ""uhighlight"" in C#"
+Lucene,LUCENE-7672,Major,T2.1.1,T2.1.1,T2.1.1,https://github.com/apache/lucene-solr/pull/152/files,C# has no CachingNaiveBayesClassifier.cs
+Lucene,LUCENE-7571,Major,T2.1.2,T2.1.2,T2.1.2,https://github.com/apache/lucene-solr/commit/09b0eee#diff-5dbae5cf162a69206b4259cd11f86a51cfa27476fffebb3174f7a1f9e025cdcfR1331,No implementation in TestJoinUtil.cs
+Lucene,LUCENE-7467,Major,T2.1.1,T2.1.1,T2.1.1,https://github.com/apache/lucene-solr/commit/6f6f73e#diff-6b87c37c88d04614da63fcd0999f6ae9268f9ebe4718f56a3827595b97b852f8R729,C# has no DefaultIndexingChain.cs
+Lucene,LUCENE-7344,Major,T2.3.1,T2.3.1,T2.3.1,https://issues.apache.org/jira/secure/attachment/12823581/LUCENE-7344.patch,"Hard to reproduce in Java, since the implementations have changed"
+Lucene,LUCENE-7315,Major,T2.1.1,T2.1.1,T2.1.1,https://issues.apache.org/jira/secure/attachment/12819153/LUCENE-7315.patch,C# has no SynonymQueryNodeBuilder.cs
+Lucene,LUCENE-7189,Major,T2.1.3,T2.1.3,T2.1.3,https://github.com/apache/lucene-solr/commit/e034b04,"No module ""geo"" in C#"
+Lucene,LUCENE-7185,Major,T2.1.3,T2.1.3,T2.1.3,https://github.com/apache/lucene-solr/commit/c135e9a,"No module ""geo"" in C#"
+Lucene,LUCENE-7161,Major,T2.1.2,T2.1.2,T2.1.2,https://github.com/apache/lucene-solr/commit/a627526#diff-47484b904269d8b14c5da58873a5c7d24fc3746e377197fdc93134d7cd7f7173R287,No implementation in TestMoreLike.cs
+Lucene,LUCENE-7160,Major,T2.1.1,T2.1.1,T2.1.1,https://git-wip-us.apache.org/repos/asf?p=lucene-solr.git;h=d9d88b8,C# has no LatLonShape.cs
+Lucene,LUCENE-7143,Major,T2.1.3,T2.1.3,T2.1.3,https://issues.apache.org/jira/secure/attachment/12795553/LUCENE-7143.patch,"No module ""geo"" in C#"
+Lucene,LUCENE-6972,Major,T2.1.1,T2.1.1,T2.1.1,https://issues.apache.org/jira/secure/attachment/12782944/LUCENE-6972.patch,C# has no MockSynonymAnalyzer.cs
+Lucene,LUCENE-6753,Major,T2.1.2,T2.1.2,T2.1.2,https://svn.apache.org/r1696808,No implementation in TestSimilarity2.cs
+Lucene,LUCENE-6744,Major,T2.1.3,T2.1.3,T2.1.3,https://github.com/apache/lucene-solr/pull/1858/files,"No module ""solr"" in C#"
+Lucene,LUCENE-6604,Major,T1.1.2,T1.1.2,T1.1.2,https://issues.apache.org/jira/secure/attachment/12741772/LUCENE-6604.patch,Similar implementation in Lucene and Lucene Net
+Lucene,LUCENE-6595,Major,T1.1.2,T1.1.2,T1.1.2,https://issues.apache.org/jira/secure/attachment/12745239/LUCENE-6595.patch,Similar implementation in Lucene and Lucene Net
+Lucene,LUCENE-6213,Major,T2.1.2,T2.1.2,T2.1.2,https://issues.apache.org/jira/secure/attachment/12695942/LUCENE-6213.patch,No implementation in SegmentInfos.cs
+Lucene,LUCENE-6154,Major,T2.1.2,T2.1.2,T2.1.2,https://issues.apache.org/jira/secure/attachment/12685576/LUCENE-6099.patch,No implementation in FilterDirectoryReader.cs
+Lucene,LUCENE-6127,Major,T2.1.2,T2.1.2,T2.1.2,https://issues.apache.org/jira/secure/attachment/12688376/LUCENE-6127.patch,No implementation in TestCachingTokenFilter.cs
+Lucene,LUCENE-6098,Major,T2.2.2,T2.2.2,T2.2.2,https://issues.apache.org/jira/secure/attachment/12685521/LUCENE-6098.patch,Test with Java GIGC parameter. C# does not have this option
+Lucene,LUCENE-6005,Major,T2.1.2,T2.1.2,T2.1.2,https://svn.apache.org/viewvc?view=revision&revision=1633597,No implementation in FieldType.cs
+Lucene,LUCENE-5885,Major,T2.1.2,T2.1.2,T2.1.2,https://issues.apache.org/jira/secure/attachment/12661766/LUCENE-5885.patch,No implementation in MergeScheduler.cs
+Lucene,LUCENE-5849,Major,T2.3.2,T2.3.2,T2.3.2,https://svn.apache.org/r1614340,"LUCENENET: This test is not compatible with 4.8.0, as it was ported from 8.2.0"
+Lucene,LUCENE-5660,Major,T2.3.1,T2.3.1,T2.3.1,https://issues.apache.org/jira/secure/attachment/12644101/LUCENE-5660.patch,Hard to reproduce in Java and C#
+Lucene,LUCENE-5561,Major,T2.1.1,T2.1.1,T2.1.1,https://issues.apache.org/jira/secure/attachment/12638144/LUCENE-5561.patch,NativeUnixDirectory removed and replaced by DirectIODirectory
+Lucene,LUCENE-5541,Major,T2.2.2,T2.2.2,T2.2.2,https://issues.apache.org/jira/secure/attachment/12635848/LUCENE-5541.patch,Java uses File.exists cause a race condition
+Lucene,LUCENE-5488,Major,T2.1.1,T2.1.1,T2.1.1,https://issues.apache.org/jira/secure/attachment/12633613/LUCENE-5488.patch,Java has no FilteredQuery.java
+Lucene,LUCENE-5396,Major,T1.2.2,T1.2.2,T1.2.2,,No fix in Java and C#
+Lucene,LUCENE-5331,Major,T2.1.3,T2.1.3,T2.1.3,,"No module ""intervals"" in C#"
+Lucene,LUCENE-5117,Major,T2.1.1,T2.1.1,T2.1.1,https://issues.apache.org/jira/secure/attachment/12730870/LUCENE-6463.patch,C# has no RandomAccessWeight.cs
+Lucene,LUCENE-5076,Major,T1.1.2,T1.1.2,T1.1.2,https://svn.apache.org/viewvc/sis/branches/JDK7/core/sis-utility/src/main/java/org/apache/sis/util/iso/DefaultRecordType.java?r1=1496055&r2=1496054&pathrev=1496055,Similar implementation in Lucene and Lucene Net
+Lucene,LUCENE-5066,Major,T2.2.2,T2.2.2,T2.2.2,https://issues.apache.org/jira/secure/attachment/12588526/LUCENE-5066.patch,LUCENENET specific: Renamed from getFilePointer() to match FileStream
+Lucene,LUCENE-5056,Major,T2.2.3,T2.2.3,T2.2.3,https://github.com/apache/lucene-solr/pull/302.patch,Third party library.
+Lucene,LUCENE-5006,Major,T2.2.2,T2.2.2,T2.2.2,https://svn.apache.org/viewvc?view=revision&revision=1515463,C# use another hashset api.
+Lucene,LUCENE-4957,Major,T2.1.2,T2.1.2,T2.1.2,https://issues.apache.org/jira/secure/attachment/12635495/LUCENE-4957.patch,No implementation in BaseTermVectorsFormatTestCase.cs
+Lucene,LUCENE-4950,Major,T2.1.2,T2.1.2,T2.1.2,https://svn.apache.org/viewvc?view=revision&revision=1575874,No implementation in AssertingIndexSearcher.xs
+Lucene,LUCENE-4803,Major,T1.1.2,T1.1.2,T1.1.2,https://svn.apache.org/viewvc/lucene/dev/trunk/lucene/facet/src/test/org/apache/lucene/facet/search/TestDrillSideways.java?r1=1450320&r2=1450319&pathrev=1450320,Java and C# all add test coverage
+Lucene,LUCENE-4800,Major,T2.1.2,T2.1.2,T2.1.2,https://issues.apache.org/jira/secure/attachment/12570964/LUCENE-4800-trunk.patch,No implementation in FloatDocValues.cs
+Lucene,LUCENE-4734,Major,T2.3.3,T2.3.3,T2.3.3,https://svn.apache.org/viewvc?view=revision&revision=1520544,Reverted PR.
+Lucene,LUCENE-4719,Major,T2.1.1,T2.1.1,T2.1.1,,Java has no SlowCompositeReaderWrapper.java
+Lucene,LUCENE-4675,Major,T2.1.2,T2.1.2,T2.1.2,https://issues.apache.org/jira/secure/attachment/12564151/LUCENE-4674.patch,No implementation in BytesRefa.cs
+Lucene,LUCENE-4649,Major,T2.3.3,T2.3.3,T2.3.3,https://issues.apache.org/jira/secure/attachment/12562911/LUCENE-4649_broken.patch,Reverted PR.
+Lucene,LUCENE-4638,Major,T2.3.3,T2.3.3,T2.3.3,https://issues.apache.org/jira/secure/attachment/12562165/LUCENE-4638.patch,Reverted PR. Java try using the IW's writeLock to unlock
+Lucene,LUCENE-4593,Major,T1.1.2,T1.1.2,T1.1.2,https://svn.apache.org/viewvc/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/fst/FST.java?r1=1430480&r2=1430479&pathrev=1430480,Java and C# all move allowArrayArcs to ctor.
+Lucene,LUCENE-4574,Major,T2.2.3,T2.2.3,T2.2.3,https://issues.apache.org/jira/secure/attachment/12555508/LUCENE-4574.patch,Solr specific. Third-Lib
+Lucene,LUCENE-4557,Major,T2.1.3,T2.1.3,T2.1.3,,"No module ""lucene41"" in Java"
+Lucene,LUCENE-4539,Major,T2.1.3,T2.1.3,T2.1.3,https://issues.apache.org/jira/secure/attachment/12552171/LUCENE-4539.patch,"No module ""lucene40"" in Java"
+Lucene,LUCENE-4170,Major,T2.1.2,T2.1.2,T2.1.2,https://issues.apache.org/jira/secure/attachment/12533659/LUCENE-4170.patch,No implementation in CommonGramsFilter.cs
+Lucene,LUCENE-4123,Major,T2.3.2,T2.3.2,T2.3.2,https://issues.apache.org/jira/secure/attachment/12543910/LUCENE-4123.patch,"java has no SimpleFSDirectory.cs, C# has. migration bug"
+Lucene,LUCENE-4073,Major,T2.2.1,T2.2.1,T2.2.1,https://github.com/apache/lucene/issues/6656,Build bugs in Java
+Lucene,LUCENE-3990,Major,T2.1.2,T2.1.2,T2.1.2,https://issues.apache.org/jira/secure/attachment/12522734/LUCENE-3990.patch,No implementation in TestRandomChains.cs
+Lucene,LUCENE-3821,Major,T1.1.2,T1.1.2,T1.1.2,https://issues.apache.org/jira/secure/attachment/12517112/LUCENE-3821.patch,Similar implementation in Lucene and Lucene Net
+Lucene,LUCENE-3380,Major,T1.1.2,T1.1.2,T1.1.2,https://issues.apache.org/jira/secure/attachment/12490816/LUCENE-3380.patch,Similar implementation in Lucene and Lucene Net
+Lucene,LUCENE-3373,Major,T2.2.2,T2.2.2,T2.2.2,https://github.com/apache/lucene/commit/1884a8730a3,Java avoid using too many sync
+Lucene,LUCENE-3317,Major,T2.2.1,T2.2.1,T2.2.1,https://github.com/apache/lucene/pull/12856,Build tools bug in Java
+Lucene,LUCENE-3314,Major,T2.1.1,T2.1.1,T2.1.1,https://svn.apache.org/viewvc?view=revision&revision=r1201393,C# has no TestNumericRangeQuery32.cs
+Lucene,LUCENE-3036,Major,T2.2.2,T2.2.2,T2.2.2,https://issues.apache.org/jira/secure/attachment/12476753/LUCENE-3036.patch,LUCENENET: Use NanoTime() rather than CurrentTimeMilliseconds() for more accurate/reliable results
+Lucene,LUCENE-2987,Major,T2.1.1,T2.1.1,T2.1.1,https://issues.apache.org/jira/secure/attachment/12510156/LUCENE-2987.patch,C# has no QueryParser.jjs
+Lucene,LUCENE-2905,Major,T2.3.3,T2.3.3,T2.3.3,https://svn.apache.org/viewvc?view=revision&revision=r1070580,Reverted PR
+Lucene,LUCENE-2861,Major,T2.1.3,T2.1.3,T2.1.3,https://github.com/apache/lucene-solr/commit/67677d9#diff-ba8be047448a7ad6110b2470247d0cbf751f059ee9c3f9eff8a897152ae6dcbaR47,"No module ""intervals"" in C#"
+Lucene,LUCENE-2806,Major,T2.3.1,T2.3.1,T2.3.1,,"Hard to rerpoduce in Java, since old version."
+Lucene,LUCENE-2557,Major,T2.3.1,T2.3.1,T2.3.1,,Hard to reproduce in C#
+Lucene,LUCENE-993,Major,T2.3.1,T2.3.1,T2.3.1,,"Hard to reproduce in Java, since SnowballAnalyzer is deprecated in 9.0+ verison."
+Lucene.Net,LUCENENET#964,Major,T1.2.2,T1.2.2,T1.2.2,,No fix for C# and Java
+Lucene.Net,LUCENENET#947,Major,T1.1.1,T1.1.1,T1.1.1,https://github.com/tohidemyname/lucenenet/commit/262f4e2849f58e57130cce0e2200cfdb3efb393b,With Lucene bug report: lucene#12626
+Lucene.Net,LUCENENET#943,Major,T1.1.1,T1.1.1,T1.1.1,https://github.com/tohidemyname/lucenenet/commit/d44ff501fe054e3d38d5bd422d0ba904ed5c9770,With Lucene bug report: https://issues.apache.org/jira/browse/LUCENE-7708
+Lucene.Net,LUCENENET#941,Major,T1.1.1,T1.1.1,T1.1.1,,https://issues.apache.org/jira/browse/LUCENE-9365
+Lucene.Net,LUCENENET#929,Major,T2.2.2,T2.2.2,T2.2.2,https://github.com/apache/lucenenet/commit/0cf7218e784715243d559526d7390681e3c63cbf,.NET version bug
+Lucene.Net,LUCENENET#894,Major,T2.2.2,T2.2.2,T2.2.2,https://github.com/apache/lucenenet/pull/786/files,.NET sync bug
+Lucene.Net,LUCENENET#827,Major,T2.2.3,T2.2.3,T2.2.3,,NUnit test frame work
+Lucene.Net,LUCENENET#739,Major,T2.2.3,T2.2.3,T2.2.3,https://github.com/apache/lucenenet/pull/897,NUnit test frame work
+Lucene.Net,LUCENENET#682,Major,T2.2.3,T2.2.3,T2.2.3,https://sonarcloud.io/project/issues?rules=csharpsquid%3AS3928&issueStatuses=OPEN%2CCONFIRMED&id=apache_lucenenet,sonarcloud bug third lib
+Lucene.Net,LUCENENET#408,Major,T2.2.2,T2.2.2,T2.2.2,https://github.com/apache/lucenenet/pull/847,,
+Lucene.Net,LUCENENET#271,Major,T1.1.2,T1.1.2,T1.1.2,,,
+JTS,JTS#1063,-,T2.2.2,T2.2.2,T2.2.2,,Java uses Hashset leading to a non-determinstic behaviour
+JTS,JTS#1051,-,T1.2.2,T1.2.2,T1.2.2,,,
+JTS,JTS#948,-,T1.2.2,T1.2.2,T1.2.2,,,
+JTS,JTS#907,-,T1.1.2,T1.1.2,T1.1.2,https://github.com/locationtech/jts/pull/977/files,Fix IN C# without bug report
+JTS,JTS#876,-,T1.1.2,T1.1.2,T1.1.2,https://github.com/locationtech/jts/pull/878/files,Fix IN C# without bug report
+JTS,JTS#874,-,T2.2.3,T2.2.3,T2.2.3,https://github.com/qupath/qupath/pull/1520/files,QuPath lib fix this bug
+JTS,JTS#784,-,T1.2.2,T1.2.2,T1.2.2,,,
+JTS,JTS#774,-,T1.2.2,T1.2.2,T1.2.2,https://github.com/NetTopologySuite/NetTopologySuite/issues/719,The developers report in both repos
+JTS,JTS#763,-,T2.1.3,T2.1.3,T2.1.3,https://github.com/locationtech/jts/pull/796,"No module ""GeoJSON "" in C#"
+JTS,JTS#585,-,T1.2.2,T1.2.2,T1.2.2,,The users report both bug in both repo
+JTS,JTS#434,-,T1.2.2,T1.2.2,T1.2.2,,The users report both bug in both repo
+JTS,JTS#375,-,T1.1.2,T1.1.2,T1.1.2,https://github.com/locationtech/jts/pull/1071/files,Fix IN C# without bug report
+JTS,JTS#288,-,T2.2.2,T2.2.2,T2.2.2,,Java precision
+JTS,JTS#253,-,T2.3.3,T2.3.3,T2.3.3,https://github.com/locationtech/jts/pull/279/files,Reverted PR
+JTS,JTS#187,-,T1.2.1,T1.2.1,T1.2.1,https://github.com/NetTopologySuite/NetTopologySuite/pull/193,,
+JTS,JTS#178,-,T1.2.2,T1.2.2,T1.2.2,,,
+JTS,JTS#74,-,T1.1.1,T1.1.1,T1.1.1,https://github.com/NetTopologySuite/NetTopologySuite/issues/151,,
+NTS,NTS#719,-,T1.2.2,T1.2.2,T1.2.2,https://github.com/locationtech/jts/issues/774,The developers report in both repos
+NTS,NTS#429,-,T2.2.1,T2.2.1,T2.2.1,,Build bugs
+NTS,NTS#366,-,T1.1.1,T1.1.1,T1.1.1,https://github.com/NetTopologySuite/NetTopologySuite/pull/374,Fixed with bug report https://github.com/locationtech/jts/issues/497
+Hibernate,HHH-12012,Critical,T1.2.2,T1.2.2,T1.2.2,,Fail in C#
+Hibernate,HHH-13943,Critical,T2.3.1,T2.3.1,T2.3.1,,Hard to reproduce. Java deprecate HqlParserTest.java
+Hibernate,HHH-13956,Critical,T2.2.2,T2.2.2,T2.2.2,,OnetoMany Annotation bug. Java specific
+Hibernate,HHH-12210,Critical,T2.1.2,T2.1.2,T2.1.2,https://github.com/hibernate/hibernate-orm/pull/3310/files,No implementation in AbstractLazyInitializer.cs
+Hibernate,HHH-13319,Critical,T2.1.3,T2.1.3,T2.1.3,https://github.com/hibernate/hibernate-orm/pull/2814/files,"No module ""query"" in C#"
+Hibernate,HHH-16054,Major,T2.1.2,T2.1.2,T2.1.2,https://github.com/hibernate/hibernate-orm/pull/6113/files,No implemetation in JoinedSubclass.cs
+Hibernate,HHH-15806,Major,T2.2.2,T2.2.2,T2.2.2,,"No module ""Envers"" in C#"
+Hibernate,HHH-16906,Major,T2.1.2,T2.1.2,T2.1.2,https://github.com/hibernate/hibernate-orm/pull/6955,No implementation in PersistentClass.cs
+Hibernate,HHH-15507,Major,T2.1.1,T2.1.1,T2.1.1,https://github.com/hibernate/hibernate-orm/pull/4860/commits/0ea2c11dff943ae8063fd355d4e7fd6cff9e6a92,C# has no UUIDTypeDescriptor.cs
+Hibernate,HHH-12394,Major,T2.1.3,T2.1.3,T2.1.3,,"No module ""Annotation"" in C#"
+Hibernate,HHH-15480,Major,T2.2.2,T2.2.2,T2.2.2,,"No module ""Envers"" in C#"
+Hibernate,HHH-10745,Major,T2.1.1,T2.1.1,T2.1.1,https://github.com/hibernate/hibernate-orm/pull/2226,C# has no AnnotationBinder.cs
+Hibernate,HHH-6326,Major,T2.3.2,T2.3.2,T2.3.2,https://hibernate.atlassian.net/browse/HHH-9305#icft=HHH-9305,No implementation in DotNode.java
+Hibernate,HHH-9979,Major,T2.1.2,T2.1.2,T2.1.2,https://github.com/hibernate/hibernate-orm/commit/3d0e2378cb998788b3205afb1e15c443c5ba77e8#diff-eaaf1d9fccb1f7c3be06f86b547bd33d0c3b38c89359903f63556a5af8ea1abfR219,No implementation in Cascade.cs
+Hibernate,HHH-5247,Major,T2.1.2,T2.1.2,T2.1.2,https://hibernate.atlassian.net/browse/HHH-8380,No implementation in Configuration.cs
+Hibernate,HHH-13290,Major,T2.2.2,T2.2.2,T2.2.2,https://hibernate.atlassian.net/browse/HHH-2907,Javadoc link bug
+Hibernate,HHH-14963,Major,T2.2.3,T2.2.3,T2.2.3,https://github.com/hibernate/hibernate-orm/pull/4347/files#diff-6446b31317048a97eb5d38aa80a9d0a71b15ea0a45f8310b30cacfcc27779778R1143,No implementation in SessionFactoryImpl.cs
+Hibernate,HHH-14983,Major,T2.1.1,T2.1.1,T2.1.1,https://github.com/hibernate/hibernate-orm/pull/4488/files,C# has no CachedDomainDataAccess.cs
+Hibernate,HHH-14480,Major,T2.2.2,T2.2.2,T2.2.2,,"No module ""Envers"" in C#"
+Hibernate,HHH-14555,Major,T2.1.1,T2.1.1,T2.1.1,https://github.com/hibernate/hibernate-orm/commit/eff27db90ac4b33ea9e8f874f93cce2fa2db7fa3,C# has no JoinColumnCollectionMetadataGenerator.cs
+Hibernate,HHH-9770,Major,T2.2.2,T2.2.2,T2.2.2,,"No module ""Envers"" in C#"
+Hibernate,HHH-11850,Major,T2.2.3,T2.2.3,T2.2.3,,"Third lib, second cache"
+Hibernate,HHH-10550,Major,T2.1.1,T2.1.1,T2.1.1,https://github.com/hibernate/hibernate-orm/pull/3692,C# has no BlobProxy.cs
+Hibernate,HHH-14061,Major,T2.1.1,T2.1.1,T2.1.1,https://github.com/hibernate/hibernate-orm/pull/3427,C# has no SetRefEdEntity.cs
+Hibernate,HHH-14263,Major,T2.1.1,T2.1.1,T2.1.1,https://hibernate.atlassian.net/browse/HHH-10246,C# has no AuditMetadataGenerator.cs
+Hibernate,HHH-14222,Major,T2.3.2,T2.3.2,T2.3.2,https://github.com/hibernate/hibernate-orm/pull/3560,No implementation in PostgreSQL82Dialect.java
+Hibernate,HHH-14200,Major,T2.3.2,T2.3.2,T2.3.2,https://github.com/hibernate/hibernate-orm/pull/3534,No implementation in DotNode.java
+Hibernate,HHH-9578,Major,T2.1.2,T2.1.2,T2.1.2,https://github.com/hibernate/hibernate-orm/pull/3499,No implementation in getLoadedPersister
+Hibernate,HHH-11875,Major,T2.1.3,T2.1.3,T2.1.3,,"No module ""jpa"" in C#"
+Hibernate,HHH-13913,Major,T2.1.1,T2.1.1,T2.1.1,https://github.com/hibernate/hibernate-orm/pull/3330,C# has no AutoApplicableConverterDescriptorStandardImpl.cs
+Hibernate,HHH-13909,Major,T2.1.1,T2.1.1,T2.1.1,https://hibernate.atlassian.net/browse/HHH-13891,C# has no ProxyFactoryHelper.cs
+Hibernate,HHH-13612,Major,T2.1.2,T2.1.2,T2.1.2,https://github.com/hibernate/hibernate-orm/pull/3023,No implementation in Template.cs
+Hibernate,HHH-13829,Major,T2.1.3,T2.1.3,T2.1.3,https://github.com/hibernate/hibernate-orm/pull/3217,"No module ""jpa"" in C#"
+Hibernate,HHH-13389,Major,T2.1.3,T2.1.3,T2.1.3,https://hibernate.atlassian.net/browse/HHH-2925,"No module ""jpa"" in C#"
+Hibernate,HHH-11196,Major,T2.2.2,T2.2.2,T2.2.2,https://github.com/hibernate/hibernate-orm/pull/1606.,Onetomany java bug
+Hibernate,HHH-12866,Major,T1.1.2,T1.1.2,T1.1.2,https://github.com/hibernate/hibernate-orm/pull/2465,Similar implementation in Java and C#
+Hibernate,HHH-12867,Major,T2.2.2,T2.2.2,T2.2.2,,Onetomany java bug
+Hibernate,HHH-12390,Major,T2.2.1,T2.2.1,T2.2.1,https://github.com/hibernate/hibernate-orm/pull/2221#issuecomment-376671177,Build bugs gradle
+Hibernate,HHH-11968,Major,T2.3.3,T2.3.3,T2.3.3,https://hibernate.atlassian.net/browse/HHH-11841,Reverted PR
+Hibernate,HHH-11487,Major,T2.3.2,T2.3.2,T2.3.2,https://github.com/hibernate/hibernate-orm/pull/1773/files,Java has no JoinSequence.java
+Hibernate,HHH-7273,Major,T2.1.1,T2.1.1,T2.1.1,,C# has no TransactionCoordinatorImpl.cs
+Hibernate,HHH-2866,Major,T2.2.2,T2.2.2,T2.2.2,,"No module ""spi"", ""jdbc"""
+Hibernate,HHH-4992,Major,T2.2.1,T2.2.1,T2.2.1,,Build bugs gradle
+Hibernate,HHH-4451,Major,T2.2.3,T2.2.3,T2.2.3,,Third library
+Hibernate,HHH-4092,Major,T2.2.2,T2.2.2,T2.2.2,,Manytomany java bug
+NHibernate,NH#1364,Critical,T2.2.2,T2.2.2,T2.2.2,https://github.com/nhibernate/nhibernate-core-testcase/commit/6042c31b6bc2f437514d9da4d5dc686a1d293c44, NHSpecificTest bug
+NHibernate,NH#1439,Major,T2.2.2,T2.2.2,T2.2.2,https://github.com/nhibernate/nhibernate-core/pull/1440/files, NHSpecificTest bug
+NHibernate,NH#1370,Major,T1.1.1,T1.1.1,T1.1.1,,https://github.com/hibernate/hibernate-orm/commit/1aed1b50f7ecfa4129d47ddeb45a10207c2fd149
+NHibernate,NH#1367,Major,T2.3.3,T2.3.3,T2.3.3,https://github.com/nhibernate/nhibernate-core/commit/c68b80e8bb3007813cb62491845c3872f5630402,Reverted PR
+NHibernate,NH#1325,Major,T2.1.1,T2.1.1,T2.1.1,,Java has no SubselectFetch.java
+NHibernate,NH#1322,Major,T2.2.2,T2.2.2,T2.2.2,, NHSpecificTest bug
+NHibernate,NH#1318,Major,T1.2.2,T1.2.2,T1.2.2,,Java does not support
+NHibernate,NH#1313,Major,T2.2.2,T2.2.2,T2.2.2,https://github.com/nhibernate/nhibernate-core/pull/3309/files, NHSpecificTest bug
+NHibernate,NH#1302,Major,T2.2.1,T2.2.1,T2.2.1,https://github.com/nhibernate/nhibernate-core/pull/3447,Build bug
+NHibernate,NH#1298,Major,T2.1.1,T2.1.1,T2.1.1,,Java has no ProjectionsTests.java
+NHibernate,NH#1296,Major,T2.1.3,T2.1.3,T2.1.3,https://github.com/nhibernate/nhibernate-core/pull/3,"No module ""Criterion"" in Java"
+NHibernate,NH#1284,Major,T2.1.1,T2.1.1,T2.1.1,https://github.com/nhibernate/nhibernate-core/commit/4a8a724562a29dcb8e7eb53e0d9e3d207b44db8b#diff-2d749e6ec720561e02b40a017ad53c5191a3299120421e88f7b38d63aebea450R17,Java has no FromElement.java
+NHibernate,NH#1281,Major,T2.1.1,T2.1.1,T2.1.1,,Java has no EagerFetchingExtensionMethods.java
+NHibernate,NH#1266,Major,T1.2.2,T1.2.2,T1.2.2,,Java does not support
+NHibernate,NH#1265,Major,T2.2.2,T2.2.2,T2.2.2,https://github.com/nhibernate/nhibernate-core/commit/9e753b6479cd86dc5063fd854b62366937ce0e30, NHSpecificTest bug
+NHibernate,NH#1260,Major,T2.1.2,T2.1.2,T2.1.2,https://github.com/nhibernate/nhibernate-core/pull/2680,No implementation in Join.java
+NHibernate,NH#1253,Major,T2.1.3,T2.1.3,T2.1.3,https://github.com/nhibernate/nhibernate-core/pull/2047,"No module ""Async"" in Java"
+NHibernate,NH#1252,Major,T2.2.2,T2.2.2,T2.2.2,https://github.com/nhibernate/nhibernate-core/pull/2103, NHSpecificTest bug
+NHibernate,NH#1250,Major,T2.2.2,T2.2.2,T2.2.2,https://github.com/nhibernate/nhibernate-core/pull/18, NHSpecificTest bug
+NHibernate,NH#1247,Major,T2.2.2,T2.2.2,T2.2.2,, NHSpecificTest bug
+NHibernate,NH#1227,Major,T2.1.1,T2.1.1,T2.1.1,https://github.com/nhibernate/nhibernate-core/pull/2675/files,Java has no CollectionJoinWalker.cs
+NHibernate,NH#1223,Major,T2.1.3,T2.1.3,T2.1.3,,"No module ""AdotNet"" in Java"
+NHibernate,NH#1208,Major,T2.2.2,T2.2.2,T2.2.2,https://github.com/nhibernate/nhibernate-core/pull/268/files, NHSpecificTest bug
+NHibernate,NH#1157,Major,T2.2.2,T2.2.2,T2.2.2,, NHSpecificTest bug
+Log4j2,LOG4J2-1973,Major,T2.1.3,T2.1.3,T2.1.3,,,
+Log4j3,LOG4J2-3663,Major,T2.1.1,T2.1.1,T2.1.1,,,
+Log4j4,LOG4J2-1094,Major,T2.1.1,T2.1.1,T2.1.1,,,
+Log4j5,LOG4J2-3624,Major,T2.1.1,T2.1.1,T2.1.1,,,
+Log4j6,LOG4J2-2439,Major,T2.1.3,T2.1.3,T2.1.3,,,
+Log4j7,LOG4J2-3173,Major,T2.2.2,T2.2.2,T2.2.2,,,
+Log4j8,LOG4J2-2164,Major,T2.2.2,T2.2.2,T2.2.2,,,
+Log4j9,LOG4J2-3121,Major,T2.1.2,T2.1.2,T2.1.2,,,
+Log4j10,LOG4J2-2914,Major,T2.2.2,T2.2.2,T2.2.2,,,
+Log4j11,LOG4J2-2196,Major,T2.2.2,T2.2.2,T2.2.2,,,
+Log4j12,LOG4J2-1441,Major,T2.2.2,T2.2.2,T2.2.2,,,
+Log4j13,LOG4J2-504,Major,T2.2.2,T2.2.2,T2.2.2,,,
+Log4j14,LOG4J2-3565,Major,T2.1.1,T2.1.1,T2.1.1,,,
+Log4j15,LOG4J2-2483,Major,T2.2.2,T2.2.2,T2.2.2,,,
+Log4j16,LOG4J2-1014,Major,T2.2.2,T2.2.2,T2.2.2,,,
+Log4j17,LOG4J2-2337,Major,T2.1.1,T2.1.1,T2.1.1,,,
+Log4j18,LOG4J2-1204,Major,T2.2.2,T2.2.2,T2.2.2,,,
+Log4j19,LOG4J2-3302,Major,T2.1.2,T2.1.2,T2.1.2,,,
+Log4j20,LOG4J2-2721,Major,T2.2.2,T2.2.2,T2.2.2,,,
+Log4j21,LOG4J2-1634,Major,T2.2.2,T2.2.2,T2.2.2,,,
+Log4j22,LOG4J2-2509,Major,T2.1.2,T2.1.2,T2.1.2,,,
+Log4j23,LOG4J2-671,Major,T2.2.2,T2.2.2,T2.2.2,,,
+Log4j24,LOG4J2-3181,Major,T2.2.1,T2.2.1,T2.2.1,,,
+Log4j25,LOG4J2-2886,Major,T2.3.1,T2.3.1,T2.3.1,,,
+Log4j26,LOG4J2-474,Major,T2.3.1,T2.3.1,T2.3.1,,,
+Log4j27,LOG4J2-1116,Major,T2.3.1,T2.3.1,T2.3.1,,,
+Log4j28,LOG4J2-3575,Major,T2.3.1,T2.3.1,T2.3.1,,,
+Log4j29,LOG4J2-1200,Major,T2.3.1,T2.3.1,T2.3.1,,,
+Log4j30,LOG4J2-3226,Major,T2.3.1,T2.3.1,T2.3.1,,,
+Log4j31,LOG4J2-1419,Major,T2.3.1,T2.3.1,T2.3.1,,,
+Log4net,LOG4NET-583,Major,T2.1.1,T2.1.1,T2.1.1,,,
+Log4net,LOG4NET-571,Major,T2.1.3,T2.1.3,T2.1.3,,,
+Log4net,LOG4NET-415,Major,T2.2.2,T2.2.2,T2.2.2,,,
+Log4net,LOG4NET-219,Major,T2.1.1,T2.1.1,T2.1.1,,,
